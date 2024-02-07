@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
+    <title>Relazione</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>IMITATION GAME</h1>
+            <p class="subtitle">Un film di Morten Tyldum</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="intro">
+            <h2>Benvenuti nel mondo di Alan Turing...</h2>
+            <p>Imitation Game è un film del 2014 diretto da Morten Tyldum, basato sulla vita di Alan Turing, matematico e crittografo britannico. Il film racconta la storia di Turing durante la seconda guerra mondiale, quando fu incaricato di decifrare i codici segreti nazisti, contribuendo così in modo significativo alla vittoria degli Alleati.</p>
+            <img src="img/cover.png" alt="Il poster del film" class="movie-poster">
+        </section>
+
+        <section id="plot">
+            <h2>Trama:</h2>
+            <p>Ambientato nella Gran Bretagna durante la Seconda Guerra Mondiale, Imitation Game narra la straordinaria storia di Alan Turing, un matematico brillante ma eccentrico, interpretato da Benedict Cumberbatch. Turing viene reclutato dal governo britannico per decifrare i codici segreti dell'Enigma, la macchina crittografica nazista che mette in pericolo milioni di vite alleate.
+            Lavorando sotto l'egida di un'affascinante ufficiale del MI6, interpretato da Keira Knightley nel ruolo di Joan Clarke, una matematica altrettanto brillante, Turing si immerge nel mondo dell'intelligence e dello spionaggio, dove ogni mossa può essere fatale e ogni indizio può portare alla vittoria o alla sconfitta.
+            La trama si concentra sulla lotta contro il tempo mentre Turing e il suo team di esperti matematici, tra cui Matthew Goode nei panni di Hugh Alexander e Mark Strong nel ruolo di Stewart Menzies, affrontano ostacoli enormi, sia personali che professionali, nel tentativo di creare la macchina che alla fine si rivelerà fondamentale per la vittoria degli Alleati.
+            </p>
+        </section>
+        <section id="awards">
+            <h2>Premi e Riconoscimenti:</h2>
+            <ol>
+                <li>7 nomination ai premi Oscar,</li>
+                <li>5 nomination ai premi Golden Globe,</li>
+                <li>9 nomination ai premi BAFTA,</li>
+                <li>1 nomination ai premi European Film Awards,</li>
+                <li>3 nomination ai premi SAG Awards.</li>
+            </ol>
+        </section>
+
+        <section id="trailer">
+            <h2>Trailer:</h2>
+            <div class="video-container">
+                <video
+                id="my-video"
+                class="video-js"
+                controls
+                preload="auto"
+                width="832"
+                height="343.2"
+                poster="img/poster.jpg"
+                data-setup="{}"
+              >
+                <source src="videos/trailer.mp4" type="video/mp4" />
+                <source src="videos/trailer.webm" type="video/webm" />
+                <p class="vjs-no-js">
+                  Per visualizzare questo video, abilita JavaScript e considera l'aggiornamento a un browser Web che
+                  <a href="https://videojs.com/html5-video-support/" target="_blank">supporta video HTML5</a>.
+                </p>
+              </video>    
+              <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Realizzato da Samuele Levizzari,</p>
+            <p>Relazione Informatica Educazione Civica,</p>
+            <p>2^E, Pascal.</p>
+        </div>
+    </footer>
+</body>
+</html>
